@@ -8,7 +8,7 @@ function Home() {
 
       <div className="img-bdg">
         <p className="title-body-bdg">Venha para a BDG</p>
-        <p className="description-bdg">Aqui temos os melhores campeonatos e ADMs</p>
+        <p className="description-bdg">Aqui temos os melhores campeonatos e jogadores contratados kappa</p>
         <a type="button" href="/" className="btn btn-default btn-bdg-inscr">INSCREVA-SE</a>
       </div>
 
@@ -56,8 +56,14 @@ function Home() {
         <h1 className="title-section">Campeonatos</h1>
 
         <div className="content-section container">
-
+          <div className="description-section">
+            <p>Tivemos um campeonato em Janeiro de 2021 valendo 5 
+              passes de batalha no valorant, onde tiveram 3 times formados pelos integrantes da BDG, e o time vencedor foi
+              Rita da Facada</p>
+          </div>
+          <div className="imagem-valorant"></div>
         </div>
+
       </div>
     </div>
   );
